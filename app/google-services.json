@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "528992122599",
+    "project_id": "food-delivery-app-b5480",
+    "storage_bucket": "food-delivery-app-b5480.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528992122599:android:e44d6a75127be261eed442",
+        "android_client_info": {
+          "package_name": "com.jasleen.fooddeliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528992122599-5s1jirj0ouqv4b821per1phhhhn69to2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXHnP1wJR_kM3Msh0b0amxvVtvE7V5GFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528992122599-5s1jirj0ouqv4b821per1phhhhn69to2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

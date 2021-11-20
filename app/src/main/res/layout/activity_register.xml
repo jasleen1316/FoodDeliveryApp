@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Activity.RegisterActivity"
+    android:background="#ff5139"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_name_register"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Name Here"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/et_email_register"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_margin="20dp"
+        android:hint="Enter Email Here"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/et_number_register"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Phone Number Here (10 digits)"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/et_address_register"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_margin="20dp"
+        android:hint="Enter Delivery Address Here"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/et_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Password Here (min. 4 digits)"
+        android:paddingLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/et_confirm_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:layout_margin="20dp"
+        android:hint="Confirm Password"
+        android:paddingLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#f02434"
+        android:layout_margin="20dp"
+        android:text="REGISTER"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"/>
+
+</LinearLayout>
